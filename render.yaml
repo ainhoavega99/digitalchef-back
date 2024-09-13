@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nombre-de-tu-servicio
+    env: php
+    plan: free
+    buildCommand: "" # Deja vacío si no necesitas un comando de construcción
+    startCommand: "heroku-php-apache2 ." # Para aplicaciones PHP que usen Apache
