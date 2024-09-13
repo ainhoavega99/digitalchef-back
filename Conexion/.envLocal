@@ -1,0 +1,4 @@
+HOST=mysql
+USER=root
+PASSWORD=root
+BD=MENU

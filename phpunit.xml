@@ -1,0 +1,12 @@
+<phpunit
+        bootstrap="./bootstrap.php"
+        colors="true"
+>
+    <testsuites>
+        <testsuite
+                name="digitalchef"
+        >
+            <directory phpVersion="8.3"></directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

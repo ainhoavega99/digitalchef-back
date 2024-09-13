@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c36acb90-2c1d-451d-a537-30a209a8f117" name="vps-65482c69.vps.ovh.net" url="http://vps-65482c69.vps.ovh.net">
+        <fileTransfer rootFolder="/var/www/html/manduca" accessType="SFTP" host="vps-65482c69.vps.ovh.net" port="22" sshConfigId="94182b28-4a33-4fbd-9fcd-046b13b0179a" sshConfig="ubuntu@vps-65482c69.vps.ovh.net:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

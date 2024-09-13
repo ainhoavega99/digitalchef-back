@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "classmap": [
+      ""
+    ]
+  },
+  "require": {
+    "ext-simplexml": "*",
+    "firebase/php-jwt": "^6.10",
+    "phpmailer/phpmailer": "^6.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  } 
+  
+}

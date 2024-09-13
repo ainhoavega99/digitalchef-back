@@ -1,0 +1,18 @@
+<categorias>
+  <categoria>
+    <id>1</id>
+    <nombre>entrantes</nombre>
+  </categoria>
+  <categoria>
+    <id>2</id>
+    <nombre>primeros</nombre>
+  </categoria>
+  <categoria>
+    <id>3</id>
+    <nombre>bebidas</nombre>
+  </categoria>
+  <categoria>
+    <id>4</id>
+    <nombre>dulces</nombre>
+  </categoria>
+</categorias>

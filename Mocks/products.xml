@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <producto>
+        <nombre>Edamame</nombre>
+        <descripcion>Descripción del Producto 1</descripcion>
+        <foto>edamame.jpg</foto>
+        <id_catego>1</id_catego>
+        <precio>10.99</precio>
+    </producto>
+    <producto>
+        <nombre>Yakitori</nombre>
+        <descripcion>Descripción del Producto 2</descripcion>
+        <foto>yakitori.jpg</foto>
+        <id_catego>1</id_catego>
+        <precio>20.49</precio>
+    </producto>
+    <producto>
+        <nombre>Gambas rebozadas</nombre>
+        <descripcion>Descripcion gamba en tempura</descripcion>
+        <foto>gamba-tempura.jpg</foto>
+        <id_catego>1</id_catego>
+        <precio>15.79</precio>
+    </producto>
+    <producto>
+        <nombre>Gyoza</nombre>
+        <descripcion>Descripción del Producto 4</descripcion>
+        <foto>gyoza.jpg</foto>
+        <id_catego>1</id_catego>
+        <precio>13.49</precio>
+    </producto>
+    <producto>
+        <nombre>Takoyaki</nombre>
+        <descripcion>Descripción del Producto 5</descripcion>
+        <foto>bola-pulpo.jpg</foto>
+        <id_catego>1</id_catego>
+        <precio>14.99</precio>
+    </producto>
+    <producto>
+        <nombre>Soba</nombre>
+        <descripcion>Descripción del Producto 6</descripcion>
+        <foto>soba.jpg</foto>
+        <id_catego>2</id_catego>
+        <precio>15.49</precio>
+    </producto>
+    <producto>
+        <nombre>Ramen</nombre>
+        <descripcion>Descripción del Producto 7</descripcion>
+        <foto>ramen.jpg</foto>
+        <id_catego>2</id_catego>
+        <precio>18.99</precio>
+    </producto>
+    <producto>
+        <nombre>Curry</nombre>
+        <descripcion>Descripción del Producto 8</descripcion>
+        <foto>curry.jpg</foto>
+        <id_catego>2</id_catego>
+        <precio>14.49</precio>
+    </producto>
+    <producto>
+        <nombre>Sushi</nombre>
+        <descripcion>Descripción del Producto 9</descripcion>
+        <foto>sushi.jpg</foto>
+        <id_catego>2</id_catego>
+        <precio>21.99</precio>
+    </producto>
+    <producto>
+        <nombre>Sushi Rolls</nombre>
+        <descripcion>Descripción del Producto 10</descripcion>
+        <foto>sushi-rolls.jpg</foto>
+        <id_catego>2</id_catego>
+        <precio>18.99</precio>
+    </producto>
+    <producto>
+        <nombre>Okonomiyaki</nombre>
+        <descripcion>Descripción del Producto 11</descripcion>
+        <foto>okonomiyaki.jpg</foto>
+        <id_catego>2</id_catego>
+        <precio>17.49</precio>
+    </producto>
+    <producto>
+        <nombre>Agua</nombre>
+        <descripcion>Descripción del Producto 12</descripcion>
+        <foto>agua.jpg</foto>
+        <id_catego>3</id_catego>
+        <precio>11.99</precio>
+    </producto>
+    <producto>
+        <nombre>Fanta</nombre>
+        <descripcion>Descripción del Producto 13</descripcion>
+        <foto>fanta.jpg</foto>
+        <id_catego>3</id_catego>
+        <precio>19.99</precio>
+    </producto>
+    <producto>
+        <nombre>CocaCola</nombre>
+        <descripcion>Descripción del Producto 14</descripcion>
+        <foto>cocacola.jpg</foto>
+        <id_catego>3</id_catego>
+        <precio>13.49</precio>
+    </producto>
+    <producto>
+        <nombre>Cerveza</nombre>
+        <descripcion>Descripción del Producto 15</descripcion>
+        <foto>cerveza.jpg</foto>
+        <id_catego>3</id_catego>
+        <precio>2.99</precio>
+    </producto>
+    <producto>
+        <nombre>Vino</nombre>
+        <descripcion>Descripción del Producto 15</descripcion>
+        <foto>vino.jpg</foto>
+        <id_catego>3</id_catego>
+        <precio>3.99</precio>
+    </producto>
+    <producto>
+        <nombre>Mochi Coco y Frambuesa</nombre>
+        <descripcion>Mochi de coco y de frambuesa, 4 unidades</descripcion>
+        <foto>mochi.jpg</foto>
+        <id_catego>4</id_catego>
+        <precio>6.49</precio>
+    </producto>
+    <producto>
+        <nombre>Tarta de queso</nombre>
+        <descripcion>Tarta de queso con mermelada de frambuesa</descripcion>
+        <foto>tarta-de-queso.jpg</foto>
+        <id_catego>4</id_catego>
+        <precio>7.99</precio>
+    </producto>
+    <producto>
+        <nombre>Bizcocho Japonés</nombre>
+        <descripcion>Bizcocho jugoso japonés a base de huevo</descripcion>
+        <foto>bizcocho-japones.jpg</foto>
+        <id_catego>4</id_catego>
+        <precio>9.49</precio>
+    </producto>
+    <producto>
+        <nombre>Tarta de chocolate</nombre>
+        <descripcion>Tarta de chocolate con relleno de kinder</descripcion>
+        <foto>tarta-de-chocolate.jpg</foto>
+        <id_catego>4</id_catego>
+        <precio>8.99</precio>
+    </producto>
+    <producto>
+        <nombre>Milhojas</nombre>
+        <descripcion>Milhojas con nata y frutos del bosque</descripcion>
+        <foto>milhojas.jpg</foto>
+        <id_catego>4</id_catego>
+        <precio>14.49</precio>
+    </producto>
+     <producto>
+        <nombre>Helado</nombre>
+        <descripcion>Helado de té matcha con toque cítrico</descripcion>
+        <foto>helado-matcha.jpg</foto>
+        <id_catego>4</id_catego>
+        <precio>4.49</precio>
+    </producto>
+</productos>
