@@ -24,7 +24,7 @@ COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY php.conf /etc/apache2/sites-available/php.conf
 COPY ports.conf /etc/apache2/ports.conf
 
-COPY --from=digitalchef-angular:latest /usr/src/dist /var/www/html/dist
+# COPY --from=digitalchef-angular:latest /usr/src/dist /var/www/html/dist
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
     php composer-setup.php && \
