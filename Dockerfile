@@ -38,9 +38,9 @@ RUN chown -R www-data:www-data /var/www/html \
 
 RUN composer dump-autoload
 
-RUN a2ensite php.conf
+# RUN a2ensite php.conf
 
-EXPOSE 80 82
+EXPOSE 80
 
 # Iniciar Apache en primer plano
 CMD ["apache2ctl", "-D", "FOREGROUND"]
