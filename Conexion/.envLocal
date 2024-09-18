@@ -1,4 +1,4 @@
-HOST=dpg-crlg57btq21c73eestr0-a
+HOST=postgresql://usuario:1cGGKqIaOktlLyodhg6l0wAbjU9JL8Gx@dpg-crlg57btq21c73eestr0-a.frankfurt-postgres.render.com/menu_ti69
 USER=usuario
 PASSWORD=1cGGKqIaOktlLyodhg6l0wAbjU9JL8Gx
 BD=menu_ti69
