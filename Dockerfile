@@ -21,7 +21,7 @@ RUN apt-get install -y php8.3-mysql \
 COPY . /var/www/html/php
 COPY /Conexion/.envLocal /var/www/html/php/Conexion/.env
 COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
-COPY php.conf /etc/apache2/sites-available/php.conf
+# COPY php.conf /etc/apache2/sites-available/php.conf
 COPY ports.conf /etc/apache2/ports.conf
 
 # COPY --from=digitalchef-angular:latest /usr/src/dist /var/www/html/dist
