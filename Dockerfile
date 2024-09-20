@@ -3,6 +3,8 @@ FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y software-properties-common
 RUN add-apt-repository ppa:ondrej/php
 RUN apt-get update
+RUN apt-get update && apt-get install -y libpq-dev \
+    && docker-php-ext-install pdo pdo_pgsql
 
 RUN apt-get install -y apache2
 RUN a2enmod rewrite  
