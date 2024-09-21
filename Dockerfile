@@ -56,11 +56,5 @@ RUN composer dump-autoload
 # Expose Apache and MySQL ports
 EXPOSE 80 3306
 
-# Initialize the MySQL database and Apache
-RUN service mysql start && mysql -uroot -p${MYSQL_ROOT_PASSWORD} -e "CREATE DATABASE ${MYSQL_DATABASE};" \
-    && mysql -uroot -p${MYSQL_ROOT_PASSWORD} -e "CREATE USER '${MYSQL_USER}'@'localhost' IDENTIFIED BY '${MYSQL_PASSWORD}';" \
-    && mysql -uroot -p${MYSQL_ROOT_PASSWORD} -e "GRANT ALL PRIVILEGES ON ${MYSQL_DATABASE}.* TO '${MYSQL_USER}'@'localhost';" \
-    && mysql -uroot -p${MYSQL_ROOT_PASSWORD} ${MYSQL_DATABASE} < /docker-entrypoint-initdb.d/MENU.sql
-
 # Command to start MySQL and Apache together
 CMD service mysql start && apache2ctl -D FOREGROUND
