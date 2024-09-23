@@ -1,4 +1,4 @@
-FROM php:8.0.0-apache
+FROM ubuntu:20.04
 
 RUN apt-get update && apt-get install -y software-properties-common
 RUN add-apt-repository ppa:ondrej/php
@@ -18,8 +18,6 @@ RUN apt-get install -y php8.3-mysql \
     php8.3-pcov \
     php8.3-xdebug
 
-RUN docker-php-ext-install pdo
-RUN docker-php-ext-install pdo_mysql
 
 COPY . /var/www/html/php
 COPY /Conexion/.envLocal /var/www/html/php/Conexion/.env
@@ -43,7 +41,7 @@ RUN composer dump-autoload
 
 # RUN a2ensite php.conf
 
-EXPOSE 80 3306
+EXPOSE 80
 
 # Iniciar Apache en primer plano
 CMD ["apache2ctl", "-D", "FOREGROUND"]
