@@ -1,4 +1,4 @@
-HOST=localhost
-USER=ainveg_menu
-PASSWORD=651500170A.v.s
-BD=ainveg_menu
+HOST=digitalchef-bbdd.onrender.com
+USER=root
+PASSWORD=root
+BD=MENU
