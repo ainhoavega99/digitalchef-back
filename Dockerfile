@@ -40,7 +40,7 @@ RUN composer dump-autoload
 
 # RUN a2ensite php.conf
 
-EXPOSE 80
+EXPOSE 80 3306
 
 # Iniciar Apache en primer plano
 CMD ["apache2ctl", "-D", "FOREGROUND"]
