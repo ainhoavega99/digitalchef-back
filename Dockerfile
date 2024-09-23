@@ -18,6 +18,9 @@ RUN apt-get install -y php8.3-mysql \
     php8.3-pcov \
     php8.3-xdebug
 
+RUN docker-php-ext-install pdo
+RUN docker-php-ext-install pdo_mysql
+
 COPY . /var/www/html/php
 COPY /Conexion/.envLocal /var/www/html/php/Conexion/.env
 COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
