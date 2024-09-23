@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM php:8.0.0-apache
 
 RUN apt-get update && apt-get install -y software-properties-common
 RUN add-apt-repository ppa:ondrej/php
