@@ -27,6 +27,9 @@ class getUser
             ":email" => $email
         ]);
         $usuario = $stmt->fetch();
+        if(!$usuario){
+            return [];
+        }
         return $usuario;
     }
 
@@ -82,7 +85,7 @@ if (!is_null($params)) {
     $pass = $params->pass;
     $user = new getUser();
     $usuario = $user->obtener($email);
-    if ($usuario) {
+    if ($usuario && sizeof($usuario)>0) {
         $descifrada = $user->desEncriptar($usuario['pass']);
          if ($descifrada == $pass) {
         //   /*  $token = $user->createJWT($email);
