@@ -84,11 +84,13 @@ if (!is_null($params)) {
     $usuario = $user->obtener($email);
     if ($usuario) {
         $descifrada = $user->desEncriptar($usuario['pass']);
-        if ($descifrada == $pass) {
-          /*  $token = $user->createJWT($email);
-            $usuario['token'] = $token;*/
-            echo json_encode($usuario);
-        }
+         if ($descifrada == $pass) {
+        //   /*  $token = $user->createJWT($email);
+        //     $usuario['token'] = $token;*/
+         echo json_encode($usuario);
+         }
+    }else{
+        echo false;
     }
 }
 
