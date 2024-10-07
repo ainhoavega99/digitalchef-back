@@ -1,4 +1,4 @@
 HOST=digitalchef-ddbb.cz8e8w6m8qot.us-east-1.rds.amazonaws.com
 USER=root
 PASSWORD=651500170
-BD=mysql
+BD=MENU
